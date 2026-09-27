@@ -1,0 +1,15 @@
+COMPARISON TABLE
+
+Key    BST Search    BST Comparisons    Linear Search    Linear Comparisons
+25     Found         4                  Found            8
+55     Found         4                  Found            9
+90     Not Found     3                  Not Found        9
+
+GENERAL COMPARISON
+
+Feature                  BST Search             Linear Search
+Best Case                O(1)                  O(1)
+Average Case             O(log n)              O(n)
+Worst Case               O(n)                  O(n)
+Additional Space        O(1)                  O(1)
+Data Structure           Binary Search Tree    Array

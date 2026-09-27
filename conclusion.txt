@@ -1,0 +1,18 @@
+FINAL CONCLUSION
+
+For the given ISBN dataset, the Binary Search Tree search required fewer
+comparisons than Linear Search for all three tested keys.
+
+For key 25, BST Search required 4 comparisons while Linear Search required
+8 comparisons.
+
+For key 55, BST Search required 4 comparisons while Linear Search required
+9 comparisons.
+
+For key 90, BST Search required 3 comparisons while Linear Search required
+9 comparisons.
+
+Therefore, BST Search is preferable for the given dataset because it
+required fewer comparisons. However, BST performance depends on the shape
+and height of the tree. A balanced BST can provide O(log n) average search
+time, while a highly skewed BST can have O(n) search time.

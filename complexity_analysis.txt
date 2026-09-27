@@ -1,0 +1,36 @@
+COMPLEXITY ANALYSIS
+
+1. BST SEARCH
+
+Best Case: O(1)
+Average Case: O(log n)
+Worst Case: O(n)
+
+The average complexity is O(log n) when the BST is reasonably balanced.
+If the tree becomes skewed, the worst-case complexity becomes O(n).
+
+2. LINEAR SEARCH
+
+Best Case: O(1)
+Average Case: O(n)
+Worst Case: O(n)
+
+Linear search checks the elements one by one until the required element is
+found or all elements have been checked.
+
+3. SPACE COMPLEXITY
+
+BST:
+The BST requires O(n) space for storing n nodes.
+
+Linear Search:
+Linear search requires O(1) additional space.
+
+4. BST HEIGHT
+
+The constructed BST contains 9 nodes.
+Its height is 3 edges, or 4 levels.
+
+The shape and height of the BST affect search performance. A shorter and
+more balanced BST generally requires fewer comparisons, while a highly
+skewed BST can result in O(n) search time.
